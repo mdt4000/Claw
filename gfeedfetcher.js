@@ -31,7 +31,7 @@ length. By removeing them and replacing non-breaking spaces with spaces, we can 
   or strippred separately with regex feature.
 */
 
-var gfeedfetcher_loading_image="indicator.gif" //Full URL to "loading" image. No need to config after this line!!
+var gfeedfetcher_loading_image="https://1.bp.blogspot.com/-BXFNzf2v-rs/Wu2A9ilr99I/AAAAAAAAAYs/uYzpgr_S1wQACZRBlevXQ9Yxdh6TWNLYACPcBGAYYCw/s1600/indicator.gif" //Full URL to "loading" image. No need to config after this line!!
 
 function gfeedfetcher(divid, divClass, linktarget){
 	this.linktarget=linktarget || "" //link target of RSS entries
